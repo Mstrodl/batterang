@@ -1,0 +1,9 @@
+[Unit]
+Description=Record battery healths every day
+
+[Timer]
+OnCalendar=daily
+Persistent=true
+
+[Install]
+WantedBy= basic.target

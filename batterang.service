@@ -1,0 +1,6 @@
+[Unit]
+Description=Record battery healths
+
+[Service]
+Type=simple
+ExecStart=%h/.local/bin/batterang
