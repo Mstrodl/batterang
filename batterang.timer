@@ -6,4 +6,4 @@ OnCalendar=daily
 Persistent=true
 
 [Install]
-WantedBy= basic.target
+WantedBy=basic.target
